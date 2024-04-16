@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 15px 15px 0 15px;
+
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-links{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+.header-links:hover{
+    text-decoration: underline;
+
+}
+#appicon{
+    opacity: 50%;
+    vertical-align: middle;
+     
+}
+#appicon:hover{
+    opacity: 100%;
+
+}
+.header-app{
+    text-decoration: none !important;
+}
+
+#header-btn{
+    color: white;
+    font-weight: bold;
+    background-color: #4285f4;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 3px;
+
+
+}
+#header-btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo{
+    display: block;
+    margin: 250px auto 20px;
+
+}
+
+.searchbar{
+    /* background-color: #4285f4; */
+    text-align: center;
+    
+    
+}
+#search{
+    width: 480px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+
+
+}
+#search:hover{
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+#search:focus{
+    outline: none;
+}
+
+#mag{
+    height: 30px; 
+    position: relative;
+    top: 12px;
+    right: 470px;
+}
+
+#mic{
+    height: 30px; 
+    position: relative;
+    top: 10px;
+    right: 75px;
+}
+.btn-box{
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.main-btn{
+    color: gray;
+    border: none;
+    border-radius: 3px;
+    /* width: 120px;
+    height: 30px; */
+    padding: 14px;
+}
+#btn1{
+    margin-right: 20px;
+}
+.main-btn:hover{
+    color: black;
+    box-shadow: 1px 1px 1px lightgray;
+    cursor: pointer;
+
+}
+
+.par{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    font-size: 13px;
+    line-height: 30px;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+
+  }
+  
+  .footer-left {
+    float: left;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+
+  .almanya{
+    color: #5f6368;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 12px;
+  }
+
+  .footer-links{
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 30px;
+
+  }
+  .footer-links:hover{
+    text-decoration: underline;
+
+  }
