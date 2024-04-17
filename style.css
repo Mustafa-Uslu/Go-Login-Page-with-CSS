@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 100.5%;
     padding: 15px 15px 0 15px;
 
 }
@@ -70,7 +70,7 @@ header{
 .searchbar{
     /* background-color: #4285f4; */
     text-align: center;
-    
+    margin-bottom: 30px;
     
 }
 #search{
@@ -78,7 +78,7 @@ header{
     height: 40px;
     border: 1px solid lightgray;
     border-radius: 25px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     padding: 0 50px;
 
 
@@ -90,7 +90,7 @@ header{
 #search:focus{
     outline: none;
 }
-
+ 
 #mag{
     height: 30px; 
     position: relative;
@@ -110,19 +110,19 @@ header{
 }
 
 .main-btn{
-    color: gray;
+    color: grey;
     border: none;
     border-radius: 3px;
     /* width: 120px;
     height: 30px; */
-    padding: 14px;
+    padding: 12px;
 }
-#btn1{
-    margin-right: 20px;
+.btn1{
+    margin-right: 13px;
 }
 .main-btn:hover{
     color: black;
-    box-shadow: 1px 1px 1px lightgray;
+    box-shadow: 0.7px 0.7px 0.7px lightgray;
     cursor: pointer;
 
 }
@@ -162,7 +162,7 @@ footer {
     text-decoration: none;
     margin-left: 12px;
     margin-right: 12px;
-    line-height: 30px;
+    /* line-height: 30px; */
 
   }
   .footer-links:hover{
